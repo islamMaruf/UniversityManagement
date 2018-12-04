@@ -108,6 +108,10 @@ Route::group(['as' => 'student.', 'prefix' => 'student', 'namespace' => 'Student
 
     });
 
+
+
+
+
 Route::group(['as' => 'teacher.', 'prefix' => 'teacher', 'namespace' => 'Teacher', 'middleware' => ['auth', 'teacher']],
     function () {
         Route::get('dashboard', 'DashboardController@index')->name('dashboard');
