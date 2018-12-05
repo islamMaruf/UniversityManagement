@@ -121,4 +121,9 @@ Route::group(['as' => 'teacher.', 'prefix' => 'teacher', 'namespace' => 'Teacher
             'as'=>'manage'
         ]);
 
+        Route::get('addMark',[
+            'uses' => 'ManagementController@addMark',
+            'as' => 'addCourse'
+        ]);
+
     });

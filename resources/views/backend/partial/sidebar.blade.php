@@ -90,6 +90,13 @@
                 <i class="ti-alarm-clock"></i><span> Course </span>
             </a>
 
+
+            <a href="{{ route('teacher.addCourse') }}">
+                <i class="ti-agenda"></i><span> Add  Mark </span>
+            </a>
+
+
+
         </li>
         @endif
 

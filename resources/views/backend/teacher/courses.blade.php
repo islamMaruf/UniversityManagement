@@ -12,11 +12,10 @@
                             <thead>
                                 <tr class="bg-primary text-white">
                                     <th>SL</th>
-                                    <th>Name</th>
-                                    <th>Email</th>
+                                    <th>Student Name</th>
+                                    <th>Student Email</th>
                                     <th>Section</th>
                                     <th>Course</th>
-                                    <th>Student</th>
                                     <th>Year</th>
                                     <th>Semester</th>
                                 </tr>
@@ -25,11 +24,10 @@
                             @foreach($viewCourses as $course)
                             <tr class="text-body">
                                 <td>{{$i++}}</td>
-                                <td>{{$course->userName}}</td>
-                                <td>{{$course->userEmail}}</td>
+                                <td>{{ App\User::all()->find($course->student)->name }}</td>
+                                <td>{{ App\User::all()->find($course->student)->email }}</td>
                                 <td>{{$course->sectionName}}</td>
                                 <td>{{$course->courseName}}</td>
-                                <td>{{ App\User::all()->find($course->student)->email }}</td>
                                 <td>{{ $course->year }}</td>
                                 <td>{{ $course->semester }}</td>
                             </tr>
