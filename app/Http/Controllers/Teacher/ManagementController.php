@@ -98,4 +98,7 @@ class ManagementController extends Controller
     public function addMark(){
         return view('backend.teacher.addCourse');
     }
+    public function addMarkStudent(){
+        return redirect('teacher/addMark');
+    }
 }

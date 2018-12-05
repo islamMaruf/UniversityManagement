@@ -126,4 +126,6 @@ Route::group(['as' => 'teacher.', 'prefix' => 'teacher', 'namespace' => 'Teacher
             'as' => 'addCourse'
         ]);
 
+        Route::post('addStudentMark','ManagementController@addMarkStudent')->name('submitStudentResult');
+
     });
