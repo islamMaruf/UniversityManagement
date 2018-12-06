@@ -14,14 +14,14 @@
                         <div class="row">
                             <div class="col-lg-6 col-sm-6">
                                 <div class="widget-inline-box text-center">
-                                    <h3 class="m-t-10"><i class="text-primary mdi mdi-account-multiple"></i> <b></b></h3>
+                                    <h3 class="m-t-10"><i class="text-primary mdi mdi-account-multiple"></i> <b>50</b></h3>
                                     <p class="text-muted">Total Courses</p>
                                 </div>
                             </div>
 
                             <div class="col-lg-6 col-sm-6">
                                 <div class="widget-inline-box text-center">
-                                    <h3 class="m-t-10"><i class="text-custom mdi mdi-account-circle"></i> <b></b></h3>
+                                    <h3 class="m-t-10"><i class="text-custom mdi mdi-account-circle"></i> <b>50</b></h3>
                                     <p class="text-muted">Total Students</p>
                                 </div>
                             </div>

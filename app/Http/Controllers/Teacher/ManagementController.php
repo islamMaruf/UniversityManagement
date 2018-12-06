@@ -96,9 +96,31 @@ class ManagementController extends Controller
     }
 
     public function addMark(){
-        return view('backend.teacher.addCourse');
+        $markInfo = DB::table('teaches')
+            ->join('takes', 'teaches.sec_id', '=', 'takes.sec_id')
+            ->join('sections', 'teaches.sec_id', '=', 'sections.id')
+            ->join('courses', 'teaches.course_id', '=', 'courses.id')
+            ->join('users', 'teaches.user_id', '=', 'users.id')
+            ->select('takes.user_id as student', 'sections.section_name as sectionName', 'sections.year', 'sections.semester', 'courses.id as courseId', 'users.name as userName', 'users.email as userEmail')->where('users.id', '=', Auth::user()->id)
+            ->get();
+
+        return view('backend.teacher.addCourse',[
+            'markInfo'=> $markInfo
+        ]);
     }
-    public function addMarkStudent(){
-        return redirect('teacher/addMark');
+    public function addMarkStudent(Request $request){
+        DB::table('students_mark')->insert([
+            'teacher_id' => Auth::user()->id,
+            'student_id' => $request['student_id'],
+            'course_id'=> $request['course_id'],
+            'attendance'=>$request['attendance'],
+            'quiz' => $request['quiz'],
+            'assignment' => $request['assignment'],
+            'midTerm' => $request['midTerm'],
+            'presentation' => $request['presentation'],
+
+        ]);
+        $message = "student mark inserted successfully";
+        return redirect('teacher/addMark')->with('message',$message);
     }
 }

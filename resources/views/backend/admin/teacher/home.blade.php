@@ -46,7 +46,7 @@
                 <div class="card-box">
                     <div class="m-b-20">
                         <h6 class="m-t-0 mb-3">All teacher information</h6>
-                        <table class="table m-0 table-bordered ">
+                        <table class="table m-0 table-bordered table-responsive">
                             <thead>
                                 <tr class="bg-primary text-white">
                                     <th>SL</th>
@@ -63,9 +63,9 @@
                                 <td>{{$user->name}}</td>
                                 <td>{{$user->id}}</td>
                                 <td>{{$user->email}}</td>
-                                <td>
-                                    <input type="button" class="btn btn-primary mr-1 btn-rounded" value="Edit">
-                                    <input type="button" class="btn btn-danger ml-1 btn-rounded" value="Delete">
+                                <td >
+                                    <input type="button" class="btn btn-primary" value="Edit">
+                                    <input type="button" class="btn btn-danger" value="Delete">
 
                                 </td>
 

@@ -50,7 +50,7 @@
                     </div>
                 </div> <!-- end col -->
 
-                <div class="col-lg-6">
+                <div class="col-xl-6">
                     <div class="card-box">
                         <h6 class="m-t-0">Section</h6>
                         <span class="text-success ">{{Session::get('messa')}}</span>
@@ -87,13 +87,7 @@
                                             <div class="col-lg-12">
                                                 <input type="text" class="form-control" name="semesterYear">
                                             </div>
-                                        </div>
-
-
-
-
-
-                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                        </div> <button type="submit" class="btn btn-primary">Submit</button>
 
 
 
@@ -124,7 +118,7 @@
             <div class="row">
 
 
-                <div class="col-lg-6">
+                <div class="col-xl-6 col-lg-6">
                     <div class="card-box">
                         <div class="m-b-20">
                             <h6 class="m-t-0 mb-3">All Course information</h6>
@@ -147,8 +141,8 @@
                                         <td>{{$course->course_code}}</td>
                                         <td>{{$course->course_credit}}</td>
                                         <td>
-                                            <input type="button" class="btn btn-primary mr-1 btn-rounded" value="Edit">
-                                            <input type="button" class="btn btn-danger ml-1 btn-rounded" value="Delete">
+                                            <input type="button" class="btn btn-primary" value="Edit">
+                                            <input type="button" class="btn btn-danger " value="Delete">
 
                                         </td>
 
@@ -161,12 +155,12 @@
 
                     </div>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-xl-6 col-lg-6">
                     <div class="card-box">
                         <div class="m-b-20">
                             <h6 class="m-t-0 mb-3">All Section information</h6>
 
-                            <table class="table m-0 table-bordered " id="tableId">
+                            <table class="table m-0 table-bordered table-responsive" id="tableId">
                                 <thead>
                                 <tr class="bg-primary text-white">
                                     <th>SL</th>
