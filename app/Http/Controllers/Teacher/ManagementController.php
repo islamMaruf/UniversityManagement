@@ -104,8 +104,12 @@ class ManagementController extends Controller
             ->select('takes.user_id as student', 'sections.section_name as sectionName', 'sections.year', 'sections.semester', 'courses.id as courseId', 'users.name as userName', 'users.email as userEmail')->where('users.id', '=', Auth::user()->id)
             ->get();
 
+        $markDetails = DB::table('students_mark')->get();
+
+
         return view('backend.teacher.addCourse',[
-            'markInfo'=> $markInfo
+            'markInfo'=> $markInfo,
+            'markDetails'=>$markDetails
         ]);
     }
     public function addMarkStudent(Request $request){

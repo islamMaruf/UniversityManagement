@@ -104,4 +104,13 @@ class ManagementController extends Controller
     {
         //
     }
+
+    public function predictResult(){
+        $studentMark = DB::table('students_mark')->where('student_id','=',Auth::user()->id)->get();
+
+
+        return view('backend.student.predictedResult')->with('studentMark',$studentMark);
+
+    }
+
 }

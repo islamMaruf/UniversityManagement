@@ -105,6 +105,7 @@ Route::group(['as' => 'student.', 'prefix' => 'student', 'namespace' => 'Student
             'uses' => 'ManagementController@index',
             'as' => 'manage',
         ]);
+       Route::get('predictResult','ManagementController@predictResult')->name('resultInfo');
 
     });
 

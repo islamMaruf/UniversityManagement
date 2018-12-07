@@ -73,7 +73,7 @@
             </a>
         </li>
         <li>
-            <a href="{{route('student.manage')}}">
+            <a href="{{route('student.resultInfo')}}">
                 <i class="ti-anchor"></i><span>Predict Result</span>
             </a>
         </li>
