@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="505b2314-6f49-4b4f-b555-8500627f4a52" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/backend/student/predictedResult.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/backend/student/predictedResult.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -88,13 +87,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="5315" />
+          <entry key="php" value="5466" />
           <entry key="txt" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Blade" value="4150" />
+          <entry key="Blade" value="4301" />
           <entry key="PHP" value="1165" />
           <entry key="PLAIN_TEXT" value="23" />
         </counts>
@@ -115,10 +114,9 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/resources/views/backend/student/predictedResult.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="392">
-              <caret line="205" column="22" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="22" />
+            <state relative-caret-position="587">
+              <caret line="205" column="16" selection-start-line="205" selection-start-column="16" selection-end-line="205" selection-end-column="16" />
               <folding>
-                <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
@@ -127,7 +125,10 @@
                 <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
                 <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" />
-                <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" />
+                <element signature="e#6592#6669#0#HTML" />
+                <element signature="e#6706#6938#0#HTML" />
+                <element signature="e#6975#7998#0#HTML" />
+                <element signature="e#8035#8105#0#HTML" />
               </folding>
             </state>
           </provider>
@@ -353,12 +354,12 @@
       <workItem from="1544022408456" duration="3643000" />
       <workItem from="1544084699358" duration="2937000" />
       <workItem from="1544108659537" duration="8958000" />
-      <workItem from="1544161925749" duration="21116000" />
+      <workItem from="1544161925749" duration="22669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38892000" />
+    <option name="totallyTimeSpent" value="40445000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,7 +390,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32899022" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -600,10 +601,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/backend/student/predictedResult.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="205" column="22" selection-start-line="205" selection-start-column="22" selection-end-line="205" selection-end-column="22" />
+        <state relative-caret-position="587">
+          <caret line="205" column="16" selection-start-line="205" selection-start-column="16" selection-end-line="205" selection-end-column="16" />
           <folding>
-            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
@@ -612,7 +612,10 @@
             <element signature="n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
             <element signature="n#div#3;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#!!top" />
             <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#!!top" />
-            <element signature="n#div#2;n#div#1;n#div#0;n#div#0;n#!!top" />
+            <element signature="e#6592#6669#0#HTML" />
+            <element signature="e#6706#6938#0#HTML" />
+            <element signature="e#6975#7998#0#HTML" />
+            <element signature="e#8035#8105#0#HTML" />
           </folding>
         </state>
       </provider>
