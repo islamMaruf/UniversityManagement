@@ -33,18 +33,16 @@
             <li >
                 <a><i class="ti-user"></i> <span>Teacher</span> <span class="menu-arrow"></span></a>
                 <ul class="nav-second-level" aria-expanded="false">
-                    <li><a href="{{route('admin.add')}}">Add Teacher</a></li>
-                    <li><a href="#">Add Course for Teacher</a></li>
-                    <li><a href="">View all Information</a></li>
+                    <li><a href="{{route('admin.add')}}">Add Teacher Information</a></li>
+
                 </ul>
             </li>
 
             <li>
                 <a href="{{route('admin.dashboard')}}"><i class="ti-face-smile"></i> <span>Student</span> <span class="menu-arrow"></span></a>
                 <ul class="nav-second-level" aria-expanded="false">
-                    <li><a href="{{route('admin.viewStudent')}}">Add Student</a></li>
-                    <li><a href="#">Add Course for Student</a></li>
-                    <li><a href="">View all Information</a></li>
+                    <li><a href="{{route('admin.viewStudent')}}">Add Student Information</a></li>
+
                 </ul>
             </li>
 

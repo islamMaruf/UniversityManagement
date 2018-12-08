@@ -160,7 +160,7 @@
                         <div class="m-b-20">
                             <h6 class="m-t-0 mb-3">All Section information</h6>
 
-                            <table class="table m-0 table-bordered table-responsive" id="tableId">
+                            <table class="table m-0 table-bordered " id="tableId">
                                 <thead>
                                 <tr class="bg-primary text-white">
                                     <th>SL</th>
@@ -181,8 +181,8 @@
                                         <td>{{$section->year}}</td>
 
                                         <td>
-                                            <input type="button" class="btn btn-primary mr-1 btn-rounded" value="Edit">
-                                            <input type="button" class="btn btn-danger ml-1 btn-rounded" value="Delete">
+                                            <input type="button" class="btn btn-primary " value="Edit">
+                                            <input type="button" class="btn btn-danger " value="Delete">
 
                                         </td>
 

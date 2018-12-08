@@ -16,16 +16,6 @@ class CourseSeeder extends Seeder
             'course_name' => 'Data Structure',
             'course_credit' => 3
         ]);
-        DB::table('courses')->insert([
-            'course_code' => 'CSE424',
-            'course_name' => 'Data Mining',
-            'course_credit' => 3
-        ]);
-        DB::table('courses')->insert([
-            'course_code' => 'CSE101',
-            'course_name' => 'Computer Fundamentals',
-            'course_credit' => 3
-        ]);
 
     }
 }
