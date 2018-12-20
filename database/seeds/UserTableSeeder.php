@@ -22,18 +22,18 @@ class UserTableSeeder extends Seeder
             'password' => bcrypt('123456'),
             'role_id' => '1'
         ]);
-        DB::table('users')->insert([
-            'name' => 'Md.Maruf Islam',
-            'email' => 'student@diu.edu.bd',
-            'password' => bcrypt('123456'),
-            'role_id' => '3'
-        ]);
-        DB::table('users')->insert([
-            'name' => 'Ms.Afsara Tasneem Misa',
-            'email' => 'teacher@diu.edu.bd',
-            'password' => bcrypt('123456'),
-            'role_id' => '2'
-        ]);
+//        DB::table('users')->insert([
+//            'name' => 'Md.Maruf Islam',
+//            'email' => 'student@diu.edu.bd',
+//            'password' => bcrypt('123456'),
+//            'role_id' => '3'
+//        ]);
+//        DB::table('users')->insert([
+//            'name' => 'Ms.Afsara Tasneem Misa',
+//            'email' => 'teacher@diu.edu.bd',
+//            'password' => bcrypt('123456'),
+//            'role_id' => '2'
+//        ]);
 
     }
 }
